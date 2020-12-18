@@ -28,17 +28,21 @@
 var invitati = ["Nick", "Daisy", "James", "Tom"];
 var utente = prompt("Inserisci nome");
 utente = utente.charAt(0).toUpperCase() + utente.substr(1).toLowerCase();
-
+var messaggio = false;
 
 for (var i = 0; i < invitati.length; i++) {
   if (utente == invitati[i]) {
-    console.log("sei stato invitato");
-  } else {
-    console.log("non sei stato invitato");
-
+    messaggio = true;
   }
 
 }
+if (messaggio) {
+  console.log("sei stato invitato");
+} else {
+  console.log("non sei stato invitato");
+
+}
+
 
 
 
