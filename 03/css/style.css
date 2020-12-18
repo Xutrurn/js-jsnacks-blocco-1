@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.red{
+  background-color: red;
+  font-size: 20px;
+  color: white;
+}
+
+.blu{
+  background-color: blue;
+  font-size: 20px;
+  color: white;
+}
